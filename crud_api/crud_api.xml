@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>crud_api</name>
+    </assembly>
+    <members>
+        <member name="M:crud_api.Controllers.ProfessorController.BuscarProfessores(crud_api.Repositories.UnitWork.IUnitOfWork)">
+            <summary>
+            Buscar Professores
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:crud_api.Controllers.ProfessorController.BuscarProfessorPorID(crud_api.Repositories.UnitWork.IUnitOfWork,System.Int32)">
+            <summary>
+            Buscar Professor por ID
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:crud_api.Controllers.ProfessorController.AdicionarProfessor(crud_api.Repositories.UnitWork.IUnitOfWork,crud_api.Model.ProfessorModel)">
+            <summary>
+            Adicionar Professor
+            </summary>
+            <param name="professor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:crud_api.Controllers.ProfessorController.AtualizarProfessor(crud_api.Repositories.UnitWork.IUnitOfWork,crud_api.Model.ProfessorModel)">
+            <summary>
+            Atualizar Professor
+            </summary>
+            <param name="professor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:crud_api.Controllers.ProfessorController.RemoverProfessor(crud_api.Repositories.UnitWork.IUnitOfWork,System.Int32)">
+            <summary>
+            Remover Professor
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="P:crud_api.Model.ProfessorModel.ID">
+            <summary>
+            Chave Tabela
+            </summary>
+        </member>
+        <member name="P:crud_api.Model.ProfessorModel.Nome">
+            <summary>
+            Nome Professor
+            </summary>
+            
+        </member>
+        <member name="M:crud_api.Repositories.UnitWork.UnitOfWork.#ctor">
+            <summary>
+            Construtor
+            </summary>
+        </member>
+    </members>
+</doc>
